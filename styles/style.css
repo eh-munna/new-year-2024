@@ -54,13 +54,9 @@ header h4 {
 }
 header h1 {
   margin-bottom: 40px;
-}
-header h1,
-h2 {
   font-size: 50px;
-}
-
-main {
+  line-height: 90px;
+  font-weight: 900;
 }
 
 .deals {
@@ -84,4 +80,137 @@ main {
   color: #070211;
   font-size: 48px;
   margin-bottom: 48px;
+}
+
+.midnight-party {
+  background-image: url('../images/Vectorrr.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 120px 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.party-content {
+  position: relative;
+  color: #fff;
+  padding: 125px 0px;
+  z-index: 1;
+}
+
+.midnight-party h2 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+.midnight-party p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.midnight-party button {
+  background: transparent;
+  border: 0;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.join {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  border-radius: 16px;
+  text-align: center;
+  padding: 120px 0;
+}
+
+.join-content > p {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.join-content > p > span {
+  color: #f00;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.join-content button {
+  margin-top: 60px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #f00;
+}
+
+.portfolio {
+  padding: 120px 0;
+}
+
+.red-heading {
+  color: #ff0000;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.black-heading {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+
+.text-content {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  padding-bottom: 45px;
+}
+
+.portfolio-imgs {
+  display: flex;
+  gap: 25px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
 }
