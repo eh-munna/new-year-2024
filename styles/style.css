@@ -214,3 +214,71 @@ header h1 {
 .mb-25 {
   margin-bottom: 25px;
 }
+
+.news-letter {
+  padding: 80px 180px;
+  background: rgba(255, 0, 0, 0.05);
+  border: 0;
+  border-radius: 16px;
+  text-align: center;
+}
+.news-letter img {
+  margin-bottom: 40px;
+}
+
+.news-letter form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.news-letter form input {
+  width: 50%;
+  padding: 25px;
+  border: 0;
+  border-radius: 50px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.news-letter form button {
+  padding: 24px;
+  border: 0;
+  border-radius: 50px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background: #f00;
+  color: #fff;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+footer {
+  margin-top: 120px;
+  padding: 120px 140px;
+  background: #070211;
+  color: #fff;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+}
+
+footer .contact {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.phone-website {
+  display: flex;
+  gap: 15px;
+}
+.phone-website li {
+  list-style: none;
+}
+
+hr {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
