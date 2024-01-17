@@ -16,6 +16,10 @@ body {
   max-width: 100%;
 }
 
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
 header {
   margin-top: 50px;
   position: relative;
@@ -48,15 +52,29 @@ header {
   text-align: center;
 }
 
-header h4 {
+.hero-content h4 {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
   margin-bottom: 18px;
   font-size: 32px;
 }
-header h1 {
+
+.hero-content h1 {
+  color: #fff;
+  text-align: center;
   margin-bottom: 40px;
-  font-size: 50px;
+  font-family: Merriweather;
+  font-size: 55px;
   line-height: 90px;
   font-weight: 900;
+}
+
+header h1 {
+  font-size: 50px;
 }
 
 .deals {
@@ -196,7 +214,7 @@ header h1 {
   margin-bottom: 25px;
 }
 
-.text-content {
+.portfolio-text-content {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
   font-size: 20px;
@@ -204,6 +222,138 @@ header h1 {
   font-weight: 400;
   line-height: 32px;
   padding-bottom: 45px;
+}
+
+.offer {
+  padding: 120px 0 0;
+}
+
+.offer-content {
+  column-gap: 80px;
+}
+
+.offer-text-content h1 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.offer-text-img h1 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.offer-img {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.offer-img img {
+  padding: 30px;
+  border: 10px solid #ff0000;
+  border-radius: 50%;
+}
+
+.offer-text-img p {
+  margin: 16px 0 40px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.offer-text-content h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.offer-text-content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.holiday {
+  padding: 120px 0 0;
+  position: relative;
+}
+
+.holiday-content {
+  display: flex;
+  padding-top: 75px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.holiday-heading h3 {
+  text-align: center;
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.holiday-heading span {
+  color: #f00;
+  text-align: center;
+}
+.holiday-heading h1 {
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-align: center;
+  color: #070211;
+  margin-bottom: 30px;
+}
+.holiday-heading p {
+  text-align: center;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.holiday-img-1 {
+  position: absolute;
+  bottom: 0;
+}
+.holiday-img-2 {
+  position: relative;
+}
+.holiday-img-2 img {
+  display: flex;
+  align-items: flex-end;
+}
+
+.holiday-50 {
+  position: absolute;
+  top: 25%;
+  left: -25%;
 }
 
 .portfolio-imgs {
@@ -281,4 +431,27 @@ footer .contact {
 
 hr {
   border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.social-contact {
+  padding: 50px 0;
+}
+
+.social-contact-links {
+  column-gap: 15px;
+  justify-content: center;
+}
+
+.footer-subscribe {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.footer-subscribe ul li {
+  list-style: none;
+}
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
 }
